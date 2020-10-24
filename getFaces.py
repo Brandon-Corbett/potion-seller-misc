@@ -1,3 +1,8 @@
+#takes single-object obj files, preferably with only triangles, 
+#and converts them into a format readable by the importCollision 
+#script in PSS. Non-triangular faces shouldn't break anything, 
+#but haven't been tested. Can accept multiple files at once.
+
 import sys
 import os
 from datetime import datetime
